@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/transactions/TXN123456"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "transaction_id": "TXN123456",
+      "from_account": "ACC001",
+      "to_account": "ACC002",
+      "amount": 100.5,
+      "currency": "USD",
+      "status": "completed",
+      "timestamp": "2024-01-15T10:30:00Z"
+    }
+  }
+}

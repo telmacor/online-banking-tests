@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/transactions",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.amount > 500)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "success": false,
+      "error": "Insufficient funds",
+      "current_balance": 50.0
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "transaction_id": "TXN123456",
+    "success": true,
+    "new_balance": 850.25,
+    "timestamp": "2024-01-15T10:30:00Z"
+}
