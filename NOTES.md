@@ -18,3 +18,10 @@
 
 4. Open Allure test results report
 `allure serve ./allure-results`
+
+
+
+### Note:
+Take in account that the `.github` is a hidden folder. 
+This folder contains the `playwright.yml` file that allow to run github pipeline.
+Please ensure you can see it.
